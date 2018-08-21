@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 08462f75d596644968f37674e5e263dd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bermuda 1.001
+    100002: Bermuda 2.001
+    100004: Bermuda 3.001
+    100006: Camera
+    100008: Camera.001
+    100010: Camera.002
+    100012: Clover 2
+    100014: Clover White
+    100016: //RootNode
+    100018: Lamp
+    100020: Mesh__grass
+    100022: Mesh_Groundscape
+    100024: Mesh_Sculpture__panel_connectors
+    100026: Mesh_Sculpture__panels_normal
+    100028: Mesh_Sculpture__panels_random
+    100030: Mesh_Sculpture__panels_rotated
+    100032: Mesh_Sculpture__sitting_guy
+    100034: Mesh_Sculpture__woman
+    100036: Mesh_Sculpture__x_struct
+    100038: Mesh_Sculpture__y_struct
+    100040: Mesh_Site__bike_path
+    100042: Mesh_Site__path
+    100044: Mesh_Site__planting
+    100046: Mesh_Site__sculpture_palza
+    100048: Mesh_Site__sidewalk
+    100050: Mesh_Site__tree
+    100052: Sun
+    100054: Sun.001
+    100056: Zoysia 1
+    100058: Zoysia 2
+    100060: Zoysia 3
+    400000: Bermuda 1.001
+    400002: Bermuda 2.001
+    400004: Bermuda 3.001
+    400006: Camera
+    400008: Camera.001
+    400010: Camera.002
+    400012: Clover 2
+    400014: Clover White
+    400016: //RootNode
+    400018: Lamp
+    400020: Mesh__grass
+    400022: Mesh_Groundscape
+    400024: Mesh_Sculpture__panel_connectors
+    400026: Mesh_Sculpture__panels_normal
+    400028: Mesh_Sculpture__panels_random
+    400030: Mesh_Sculpture__panels_rotated
+    400032: Mesh_Sculpture__sitting_guy
+    400034: Mesh_Sculpture__woman
+    400036: Mesh_Sculpture__x_struct
+    400038: Mesh_Sculpture__y_struct
+    400040: Mesh_Site__bike_path
+    400042: Mesh_Site__path
+    400044: Mesh_Site__planting
+    400046: Mesh_Site__sculpture_palza
+    400048: Mesh_Site__sidewalk
+    400050: Mesh_Site__tree
+    400052: Sun
+    400054: Sun.001
+    400056: Zoysia 1
+    400058: Zoysia 2
+    400060: Zoysia 3
+    2100000: panels-gradient
+    2100002: No Name
+    2100004: p-coat-steel.001
+    2100006: 0_Site_Bike-Path
+    2100008: 0_Sidewalk
+    2100010: 0_Site_Planting
+    2100012: 1_Site_Path
+    2100014: Bricks03_3K
+    2100016: Clover White Stem
+    2100018: Clover White Brown
+    2100020: Clover White
+    2100022: Clover Stem
+    2100024: Clover
+    2100026: Zoysia Stem.001
+    2100028: Zoysia.001
+    2100030: Bermuda.001
+    2100032: Bermuda Stem.001
+    2100034: ground
+    2300000: Bermuda 1.001
+    2300002: Bermuda 2.001
+    2300004: Bermuda 3.001
+    2300006: Clover 2
+    2300008: Clover White
+    2300010: Mesh__grass
+    2300012: Mesh_Groundscape
+    2300014: Mesh_Sculpture__panel_connectors
+    2300016: Mesh_Sculpture__panels_normal
+    2300018: Mesh_Sculpture__panels_random
+    2300020: Mesh_Sculpture__panels_rotated
+    2300022: Mesh_Sculpture__sitting_guy
+    2300024: Mesh_Sculpture__woman
+    2300026: Mesh_Sculpture__x_struct
+    2300028: Mesh_Sculpture__y_struct
+    2300030: Mesh_Site__bike_path
+    2300032: Mesh_Site__path
+    2300034: Mesh_Site__planting
+    2300036: Mesh_Site__sculpture_palza
+    2300038: Mesh_Site__sidewalk
+    2300040: Mesh_Site__tree
+    2300042: Zoysia 1
+    2300044: Zoysia 2
+    2300046: Zoysia 3
+    3300000: Bermuda 1.001
+    3300002: Bermuda 2.001
+    3300004: Bermuda 3.001
+    3300006: Clover 2
+    3300008: Clover White
+    3300010: Mesh__grass
+    3300012: Mesh_Groundscape
+    3300014: Mesh_Sculpture__panel_connectors
+    3300016: Mesh_Sculpture__panels_normal
+    3300018: Mesh_Sculpture__panels_random
+    3300020: Mesh_Sculpture__panels_rotated
+    3300022: Mesh_Sculpture__sitting_guy
+    3300024: Mesh_Sculpture__woman
+    3300026: Mesh_Sculpture__x_struct
+    3300028: Mesh_Sculpture__y_struct
+    3300030: Mesh_Site__bike_path
+    3300032: Mesh_Site__path
+    3300034: Mesh_Site__planting
+    3300036: Mesh_Site__sculpture_palza
+    3300038: Mesh_Site__sidewalk
+    3300040: Mesh_Site__tree
+    3300042: Zoysia 1
+    3300044: Zoysia 2
+    3300046: Zoysia 3
+    4300000: Mesh_Sculpture__panels_rotated
+    4300002: Mesh_Sculpture__sitting_guy
+    4300004: Mesh_Sculpture__x_struct
+    4300006: Mesh_Sculpture__woman
+    4300008: Mesh_Sculpture__panel_connectors
+    4300010: Mesh_Sculpture__panels_normal
+    4300012: Mesh_Sculpture__panels_random
+    4300014: Mesh_Sculpture__y_struct
+    4300016: Mesh_Site__bike_path
+    4300018: Mesh_Site__sidewalk
+    4300020: Mesh_Site__tree
+    4300022: Mesh_Site__planting
+    4300024: Mesh_Site__path
+    4300026: Mesh_Site__sculpture_palza
+    4300028: Clover White
+    4300030: Clover 2
+    4300032: Zoysia 3
+    4300034: Zoysia 2
+    4300036: Zoysia 1
+    4300038: Bermuda 2.001
+    4300040: Bermuda 1.001
+    4300042: Bermuda 3.001
+    4300044: Mesh_Groundscape
+    4300046: Mesh__grass
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

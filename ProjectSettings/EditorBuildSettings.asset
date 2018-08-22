@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/Prototyping/Model Import.unity
-    guid: 59d0d58c0e11a4f1b8761d4a997a9748
+    path: Assets/_Scenes/Prototyping/AR Model on Plane.unity
+    guid: 645957a401425409798f72763e2de0e7
   m_configObjects: {}

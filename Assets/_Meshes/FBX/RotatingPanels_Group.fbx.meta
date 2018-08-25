@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 1848d22dc17966d4da177771933224cc
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: _Magic_Carpet_pixel_panels:object_1
     100002: _Magic_Carpet_pixel_panels:object_10
@@ -18944,7 +18944,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 2.04
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -18964,6 +18964,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

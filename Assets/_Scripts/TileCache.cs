@@ -5,7 +5,8 @@ using UnityEngine;
 public class TileCache : MonoBehaviour
 {
 
-    public GameObject panelPrefab;
+    public GameObject lowLODPanelPrefab;
+    public GameObject highLODPanelPrefab;
     public Transform[] panelPosn;
     [SerializeField] private int _numOfPanels;
     private GameObject _panelParent;
@@ -33,7 +34,7 @@ public class TileCache : MonoBehaviour
     {
         for (int i = 0; i < _numOfPanels; i++)
         {
-            Instantiate(panelPrefab, panelPosn[i].position, panelPosn[i].rotation, _panelsGroup.transform);
+            Instantiate(lowLODPanelPrefab, panelPosn[i].position, panelPosn[i].rotation, _panelsGroup.transform);
         }
 
     }

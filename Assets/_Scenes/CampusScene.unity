@@ -113,29 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &42920478 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 107564, guid: 1848d22dc17966d4da177771933224cc,
-    type: 3}
-  m_PrefabInternal: {fileID: 1699195975}
---- !u!114 &42920479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 42920478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4e64e40c10321c4f950dd004acc9a6f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lowLODPanelPrefab: {fileID: 1191938699655320, guid: aed700f7098b246789d0a41ac1a3c29f,
-    type: 2}
-  highLODPanelPrefab: {fileID: 1654159615559166, guid: 67e567cfd71c9494496b989ec4222d43,
-    type: 2}
-  panelPosn: []
-  _numOfPanels: 0
-  _panelsGroup: {fileID: 1766995973}
 --- !u!1 &44825108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1154,68 +1131,49 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 407564, guid: 1848d22dc17966d4da177771933224cc, type: 3}
+    - target: {fileID: 4341311457745282, guid: 0432801ec437343a9a01701148f81c97, type: 2}
       propertyPath: m_LocalPosition.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 407564, guid: 1848d22dc17966d4da177771933224cc, type: 3}
+    - target: {fileID: 4341311457745282, guid: 0432801ec437343a9a01701148f81c97, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 407564, guid: 1848d22dc17966d4da177771933224cc, type: 3}
+    - target: {fileID: 4341311457745282, guid: 0432801ec437343a9a01701148f81c97, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 407564, guid: 1848d22dc17966d4da177771933224cc, type: 3}
+    - target: {fileID: 4341311457745282, guid: 0432801ec437343a9a01701148f81c97, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 407564, guid: 1848d22dc17966d4da177771933224cc, type: 3}
+    - target: {fileID: 4341311457745282, guid: 0432801ec437343a9a01701148f81c97, type: 2}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 407564, guid: 1848d22dc17966d4da177771933224cc, type: 3}
+    - target: {fileID: 4341311457745282, guid: 0432801ec437343a9a01701148f81c97, type: 2}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 407564, guid: 1848d22dc17966d4da177771933224cc, type: 3}
+    - target: {fileID: 4341311457745282, guid: 0432801ec437343a9a01701148f81c97, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 407564, guid: 1848d22dc17966d4da177771933224cc, type: 3}
+    - target: {fileID: 4341311457745282, guid: 0432801ec437343a9a01701148f81c97, type: 2}
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 107564, guid: 1848d22dc17966d4da177771933224cc, type: 3}
-      propertyPath: m_Name
-      value: RotatingPanels_Group (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 407562, guid: 1848d22dc17966d4da177771933224cc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.68
-      objectReference: {fileID: 0}
-    - target: {fileID: 407562, guid: 1848d22dc17966d4da177771933224cc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 407562, guid: 1848d22dc17966d4da177771933224cc, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 15.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 407562, guid: 1848d22dc17966d4da177771933224cc, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 15.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 407562, guid: 1848d22dc17966d4da177771933224cc, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 15.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 107562, guid: 1848d22dc17966d4da177771933224cc, type: 3}
+    - target: {fileID: 114330447875966804, guid: 0432801ec437343a9a01701148f81c97,
+        type: 2}
+      propertyPath: _panelsGroup
+      value: 
+      objectReference: {fileID: 1766995973}
+    - target: {fileID: 1832055534897812, guid: 0432801ec437343a9a01701148f81c97, type: 2}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1848d22dc17966d4da177771933224cc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 0432801ec437343a9a01701148f81c97, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &1747180297
 Prefab:

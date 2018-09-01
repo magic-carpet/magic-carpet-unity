@@ -3786,6 +3786,15 @@ ModelImporter:
     107560: _Magic_Carpet_pixel_panels:object_999
     107562: RotatingPanels
     107564: //RootNode
+    107566: object_721
+    107568: _Magic_Carpet_pixel_panels:object_122b
+    107570: _Magic_Carpet_pixel_panels:object_27b
+    107572: _Magic_Carpet_pixel_panels:object_29b
+    107574: _Magic_Carpet_pixel_panels:object_30b
+    107576: _Magic_Carpet_pixel_panels:object_31b
+    107578: _Magic_Carpet_pixel_panels:object_41b
+    107580: _Magic_Carpet_pixel_panels:object_674b
+    107582: Missing
     400000: _Magic_Carpet_pixel_panels:object_1
     400002: _Magic_Carpet_pixel_panels:object_10
     400004: _Magic_Carpet_pixel_panels:object_100
@@ -7569,7 +7578,17 @@ ModelImporter:
     407560: _Magic_Carpet_pixel_panels:object_999
     407562: RotatingPanels
     407564: //RootNode
+    407566: object_721
+    407568: _Magic_Carpet_pixel_panels:object_122b
+    407570: _Magic_Carpet_pixel_panels:object_27b
+    407572: _Magic_Carpet_pixel_panels:object_29b
+    407574: _Magic_Carpet_pixel_panels:object_30b
+    407576: _Magic_Carpet_pixel_panels:object_31b
+    407578: _Magic_Carpet_pixel_panels:object_41b
+    407580: _Magic_Carpet_pixel_panels:object_674b
+    407582: Missing
     2100000: lambert1
+    2100002: lambert2
     2300000: _Magic_Carpet_pixel_panels:object_1
     2300002: _Magic_Carpet_pixel_panels:object_10
     2300004: _Magic_Carpet_pixel_panels:object_100
@@ -11351,6 +11370,15 @@ ModelImporter:
     2307556: _Magic_Carpet_pixel_panels:object_997
     2307558: _Magic_Carpet_pixel_panels:object_998
     2307560: _Magic_Carpet_pixel_panels:object_999
+    2307562: object_721
+    2307564: _Magic_Carpet_pixel_panels:object_122b
+    2307566: _Magic_Carpet_pixel_panels:object_27b
+    2307568: _Magic_Carpet_pixel_panels:object_29b
+    2307570: _Magic_Carpet_pixel_panels:object_30b
+    2307572: _Magic_Carpet_pixel_panels:object_31b
+    2307574: _Magic_Carpet_pixel_panels:object_41b
+    2307576: _Magic_Carpet_pixel_panels:object_674b
+    2307578: Missing
     3300000: _Magic_Carpet_pixel_panels:object_1
     3300002: _Magic_Carpet_pixel_panels:object_10
     3300004: _Magic_Carpet_pixel_panels:object_100
@@ -15132,6 +15160,15 @@ ModelImporter:
     3307556: _Magic_Carpet_pixel_panels:object_997
     3307558: _Magic_Carpet_pixel_panels:object_998
     3307560: _Magic_Carpet_pixel_panels:object_999
+    3307562: object_721
+    3307564: _Magic_Carpet_pixel_panels:object_122b
+    3307566: _Magic_Carpet_pixel_panels:object_27b
+    3307568: _Magic_Carpet_pixel_panels:object_29b
+    3307570: _Magic_Carpet_pixel_panels:object_30b
+    3307572: _Magic_Carpet_pixel_panels:object_31b
+    3307574: _Magic_Carpet_pixel_panels:object_41b
+    3307576: _Magic_Carpet_pixel_panels:object_674b
+    3307578: Missing
     4300000: _Magic_Carpet_pixel_panels:object_3781
     4300002: _Magic_Carpet_pixel_panels:object_3780
     4300004: _Magic_Carpet_pixel_panels:object_3779
@@ -18913,9 +18950,19 @@ ModelImporter:
     4307556: _Magic_Carpet_pixel_panels:object_3
     4307558: _Magic_Carpet_pixel_panels:object_2
     4307560: _Magic_Carpet_pixel_panels:object_1
+    4307562: object_721
+    4307564: _Magic_Carpet_pixel_panels:object_29b
+    4307566: _Magic_Carpet_pixel_panels:object_30b
+    4307568: _Magic_Carpet_pixel_panels:object_31b
+    4307570: _Magic_Carpet_pixel_panels:object_27b
+    4307572: _Magic_Carpet_pixel_panels:object_41b
+    4307574: _Magic_Carpet_pixel_panels:object_674b
+    4307576: _Magic_Carpet_pixel_panels:object_122b
+    4307578: Missing
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -18949,8 +18996,8 @@ ModelImporter:
     addColliders: 0
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -18971,7 +19018,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2

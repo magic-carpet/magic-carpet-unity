@@ -155,3 +155,6 @@ MonoBehaviour:
   _posnTwo: {fileID: 4573240567084058}
   _currentPosn: {fileID: 4374360169725908}
   _aiAgent: {fileID: 0}
+  _waypoints:
+  - {fileID: 4286758634410378}
+  - {fileID: 4573240567084058}

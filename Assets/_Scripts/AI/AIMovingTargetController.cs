@@ -10,6 +10,9 @@ public class AIMovingTargetController : MonoBehaviour {
     [SerializeField] private GameObject _aiAgent;
     private bool _atPosnOne=true;
 
+    //waypathfinding
+    [SerializeField] private Transform[] _waypoints;
+
     void Start () {
         _currentPosn.position = _posnOne.position;
 

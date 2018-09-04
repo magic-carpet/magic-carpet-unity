@@ -2,42 +2,36 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AIMovingTargetController : MonoBehaviour {
-
-    [SerializeField] private Transform _posnOne;
-    [SerializeField] private Transform _posnTwo;
-    [SerializeField] private Transform _currentPosn;
+public class AIMovingTargetController : MonoBehaviour
+{
     [SerializeField] private GameObject _aiAgent;
-    private bool _atPosnOne=true;
-
-    //waypathfinding
+    private int _atPosn = 0;
     [SerializeField] private Transform[] _waypoints;
 
-    void Start () {
-        _currentPosn.position = _posnOne.position;
-
+    void Start()
+    {
+        transform.position = _waypoints[0].position;
     }
-	
-	void Update () {
-		
-	}
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Tiggered by " + other.name);
-        if (other.gameObject == _aiAgent.gameObject){
+        if (other.gameObject == _aiAgent.gameObject)
+        {
             TogglePosition();
         }
     }
 
-    private void TogglePosition(){
-        if (_atPosnOne){
-            _currentPosn.position = _posnTwo.position;
-            _atPosnOne = false;
+    private void TogglePosition()
+    {
+        if (_atPosn + 1 < _waypoints.Length)
+        {
+            _atPosn++;
+            transform.position = _waypoints[_atPosn].position;
         }
-        else {
-            _currentPosn.position = _posnOne.position;
-            _atPosnOne = true;
+        else
+        {
+            _atPosn = 0;
+            transform.position = _waypoints[_atPosn].position;
         }
     }
 }

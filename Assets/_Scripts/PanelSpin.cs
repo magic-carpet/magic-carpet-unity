@@ -9,7 +9,7 @@ public class PanelSpin : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         _rb = GetComponent<Rigidbody>();
-        //_rb.AddTorque(Vector3.forward * _rotSpeed);
+        _rb.AddTorque(Vector3.forward * _rotSpeed);
 
     }
 	

@@ -15,11 +15,11 @@ public class TileCache : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        _panelParent = this.transform.GetChild(0).gameObject;
+        _panelParent = this.gameObject;
         _numOfPanels = _panelParent.transform.childCount;
         panelPosn = new Transform[_numOfPanels];
         CachePanelPositions();
-        InstancePanels();
+       InstancePanels();
     }
 
     private void CachePanelPositions()
@@ -34,7 +34,8 @@ public class TileCache : MonoBehaviour
     {
         for (int i = 0; i < _numOfPanels; i++)
         {
-            Instantiate(lowLODPanelPrefab, panelPosn[i].position, panelPosn[i].rotation, _panelsGroup.transform);
+           var clone = Instantiate(lowLODPanelPrefab, panelPosn[i].position, panelPosn[i].rotation, _panelsGroup.transform);
+            clone.name = "PanelPosition(" + i + ")";
         }
 
     }

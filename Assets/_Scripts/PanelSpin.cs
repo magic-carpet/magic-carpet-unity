@@ -24,7 +24,14 @@ public class PanelSpin : MonoBehaviour {
 
     }
 
-    public void WindSpinPanel()
+    public void WindGentleSpinPanel()
+    {
+        float rand = Random.Range(_rotSpeed - 101f, _rotSpeed - 99f);
+        _rb.AddTorque(Vector3.forward * rand);
+
+    }
+
+    public void WindStrongSpinPanel()
     {
         float rand = Random.Range(_rotSpeed - 99f, _rotSpeed - 98f);
         _rb.AddTorque(Vector3.forward * rand);

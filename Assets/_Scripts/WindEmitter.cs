@@ -7,9 +7,10 @@ public class WindEmitter : MonoBehaviour {
     [SerializeField] private GameObject _windObject;
     [SerializeField] private GameObject _windEmitterObject;
     private float _timer;
+    [SerializeField] bool _strongWind = false;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         StartCoroutine(BlowWind());
 	}
 	
@@ -22,7 +23,11 @@ public class WindEmitter : MonoBehaviour {
         //Debug.Log("Blowing Wind");
         _timer = Random.Range(0.2f, 0.5f);
         yield return new WaitForSeconds(_timer);
-        Instantiate(_windObject, _windEmitterObject.transform.position, _windEmitterObject.transform.rotation, gameObject.transform);
+        var clone = Instantiate(_windObject, _windEmitterObject.transform.position, _windEmitterObject.transform.rotation, gameObject.transform);
+        if (_strongWind)
+        {
+            clone.GetComponent<WindMovement>().strongWind = true;
+        }
         StartCoroutine(BlowWind());
     }
 }

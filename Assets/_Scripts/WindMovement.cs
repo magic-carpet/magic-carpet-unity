@@ -5,6 +5,7 @@ using UnityEngine;
 public class WindMovement : MonoBehaviour {
 
     private Rigidbody rb;
+    public bool strongWind = false;
 
     public float MoveSpeed = 50.0f;
 
@@ -35,7 +36,12 @@ public class WindMovement : MonoBehaviour {
     {
         if (other.tag == "Panel"){
             //Debug.Log("Wind hit " + other.gameObject.name);
-            other.gameObject.GetComponent<PanelSpin>().WindSpinPanel();
+            if (strongWind)
+            {
+                other.gameObject.GetComponent<PanelSpin>().WindStrongSpinPanel();
+            }else{
+                other.gameObject.GetComponent<PanelSpin>().WindGentleSpinPanel();
+            }
         }
     }
 }

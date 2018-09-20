@@ -137,6 +137,8 @@ MonoBehaviour:
   panelPosn: []
   _numOfPanels: 0
   _panelsGroup: {fileID: 1873744180}
+  _panelColors: []
+  colourfulTiles: 0
 --- !u!1 &238181878
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,6 +908,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 112.118004
       objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabAsset: 0
@@ -1033,6 +1039,11 @@ Prefab:
       propertyPath: _panelsGroup
       value: 
       objectReference: {fileID: 1873744180}
+    - target: {fileID: 114619387103781108, guid: 31feeb148cca041fb8860ef7d83ad651,
+        type: 2}
+      propertyPath: colourfulTiles
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31feeb148cca041fb8860ef7d83ad651, type: 2}
   m_IsPrefabAsset: 0
@@ -1111,6 +1122,11 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23653697716960780, guid: 67c8d391ad8dcf241bb9c286cd3cfb17,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d06978f56b165d34cbbd240d163b8458, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67c8d391ad8dcf241bb9c286cd3cfb17, type: 2}
   m_IsPrefabAsset: 0

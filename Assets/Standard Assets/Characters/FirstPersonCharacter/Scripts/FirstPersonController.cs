@@ -81,6 +81,20 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+
+            if(Input.GetButtonDown("Fire1")){
+                Debug.Log("Firing");
+                RaycastHit hit;
+                // Does the ray intersect any objects excluding the player layer
+                if (Physics.Raycast(m_Camera.transform.position, m_Camera.transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity))
+                {
+                    Debug.DrawRay(m_Camera.transform.position, m_Camera.transform.TransformDirection(Vector3.forward) * hit.distance, Color.red);
+                    if (hit.collider.tag=="Panel"){
+                        //hit.collider.gameObject.GetComponent<PanelSpin>().TouchSpinPanel();
+                    }
+                }
+
+            }
         }
 
 

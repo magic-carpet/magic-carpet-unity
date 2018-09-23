@@ -1,0 +1,1297 @@
+fileFormatVersion: 2
+guid: fe05da5e2caa14875ae71b0cff1bbde3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: b paint01
+    100002: b paint02
+    100004: b paint03
+    100006: b paint04
+    100008: b paint05
+    100010: b paint07
+    100012: b paint08
+    100014: b paint09
+    100016: black m01
+    100018: black m02
+    100020: black m03
+    100022: black m04
+    100024: black m05
+    100026: black m06
+    100028: black m07
+    100030: black m08
+    100032: black m09
+    100034: black m10
+    100036: black m11
+    100038: black m12
+    100040: black m13
+    100042: black m14
+    100044: black m15
+    100046: black m16
+    100048: black m17
+    100050: black m18
+    100052: black m19
+    100054: black m20
+    100056: black m21
+    100058: black m22
+    100060: black m23
+    100062: black m24
+    100064: black m25
+    100066: black m26
+    100068: black m27
+    100070: black m28
+    100072: black m29
+    100074: black m30
+    100076: black m31
+    100078: black m32
+    100080: black m33
+    100082: black m34
+    100084: black m35
+    100086: black m36
+    100088: black m37
+    100090: black m38
+    100092: black m39
+    100094: black m40
+    100096: black m41
+    100098: black m42
+    100100: black m43
+    100102: black m44
+    100104: black m45
+    100106: black m46
+    100108: black m47
+    100110: black m48
+    100112: black m49
+    100114: black m50
+    100116: black m51
+    100118: black m52
+    100120: black m53
+    100122: black m54
+    100124: black m55
+    100126: black m56
+    100128: black m57
+    100130: black m58
+    100132: black m59
+    100134: black m60
+    100136: black m61
+    100138: black m62
+    100140: black m63
+    100142: black m64
+    100144: black m65
+    100146: black m66
+    100148: black m67
+    100150: black m68
+    100152: black m69
+    100154: black m70
+    100156: black m71
+    100158: black m72
+    100160: black m73
+    100162: black m74
+    100164: black m75
+    100166: black m76
+    100168: black m77
+    100170: black m78
+    100172: black m79
+    100174: black m80
+    100176: black m81
+    100178: black m82
+    100180: black m83
+    100182: black m84
+    100184: black m85
+    100186: black m86
+    100188: black m87
+    100190: black m88
+    100192: black m89
+    100194: black m90
+    100196: black m91
+    100198: black m92
+    100200: black01
+    100202: body
+    100204: body01
+    100206: body02
+    100208: body03
+    100210: body04
+    100212: body05
+    100214: body06
+    100216: body07
+    100218: body08
+    100220: body09
+    100222: body10
+    100224: body11
+    100226: body12
+    100228: body13
+    100230: body14
+    100232: body15
+    100234: body16
+    100236: body17
+    100238: body18
+    100240: body19
+    100242: body20
+    100244: body21
+    100246: body22
+    100248: body23
+    100250: body24
+    100252: body25
+    100254: body26
+    100256: body27
+    100258: body28
+    100260: body29
+    100262: body30
+    100264: chrome01
+    100266: chrome02
+    100268: chromem01
+    100270: chromem02
+    100272: chromem04
+    100274: chromem05
+    100276: glass02
+    100278: glass03
+    100280: glass04
+    100282: glass05
+    100284: glass06
+    100286: glass07
+    100288: glass08
+    100290: glass09
+    100292: glass10
+    100294: glass11
+    100296: glass12
+    100298: gold01
+    100300: gold02
+    100302: gold03
+    100304: gold04
+    100306: gum01
+    100308: gum02
+    100310: gum03
+    100312: gum04
+    100314: gum05
+    100316: gum06
+    100318: gum07
+    100320: gum08
+    100322: gum09
+    100324: gum10
+    100326: gum11
+    100328: gum12
+    100330: gum13
+    100332: gum14
+    100334: gum15
+    100336: gum16
+    100338: gum17
+    100340: gum18
+    100342: gum19
+    100344: gum20
+    100346: gum21
+    100348: gum22
+    100350: gum23
+    100352: gum24
+    100354: logo01
+    100356: orange01
+    100358: orange02
+    100360: plate01
+    100362: r glass01
+    100364: red01
+    100366: red02
+    100368: red03
+    100370: red04
+    100372: red05
+    100374: red06
+    100376: silver01
+    100378: silver02
+    100380: silver03
+    100382: silver04
+    100384: silver05
+    100386: silver06
+    100388: silver07
+    100390: silver08
+    100392: silver09
+    100394: silver10
+    100396: silver11
+    100398: silver12
+    100400: silver13
+    100402: silver14
+    100404: silver15
+    100406: silver16
+    100408: silver17
+    100410: silver19
+    100412: silver20
+    100414: silver21
+    100416: silver23
+    100418: silver24
+    100420: silver25
+    100422: silver26
+    100424: silver27
+    100426: silver28
+    100428: silver29
+    100430: silver30
+    100432: silver31
+    100434: silver32
+    100436: silver33
+    100438: silver34
+    100440: silver35
+    100442: silver36
+    100444: silver37
+    100446: silver38
+    100448: silver39
+    100450: silver40
+    100452: silver41
+    100454: silver42
+    100456: //RootNode
+    400000: b paint01
+    400002: b paint02
+    400004: b paint03
+    400006: b paint04
+    400008: b paint05
+    400010: b paint07
+    400012: b paint08
+    400014: b paint09
+    400016: black m01
+    400018: black m02
+    400020: black m03
+    400022: black m04
+    400024: black m05
+    400026: black m06
+    400028: black m07
+    400030: black m08
+    400032: black m09
+    400034: black m10
+    400036: black m11
+    400038: black m12
+    400040: black m13
+    400042: black m14
+    400044: black m15
+    400046: black m16
+    400048: black m17
+    400050: black m18
+    400052: black m19
+    400054: black m20
+    400056: black m21
+    400058: black m22
+    400060: black m23
+    400062: black m24
+    400064: black m25
+    400066: black m26
+    400068: black m27
+    400070: black m28
+    400072: black m29
+    400074: black m30
+    400076: black m31
+    400078: black m32
+    400080: black m33
+    400082: black m34
+    400084: black m35
+    400086: black m36
+    400088: black m37
+    400090: black m38
+    400092: black m39
+    400094: black m40
+    400096: black m41
+    400098: black m42
+    400100: black m43
+    400102: black m44
+    400104: black m45
+    400106: black m46
+    400108: black m47
+    400110: black m48
+    400112: black m49
+    400114: black m50
+    400116: black m51
+    400118: black m52
+    400120: black m53
+    400122: black m54
+    400124: black m55
+    400126: black m56
+    400128: black m57
+    400130: black m58
+    400132: black m59
+    400134: black m60
+    400136: black m61
+    400138: black m62
+    400140: black m63
+    400142: black m64
+    400144: black m65
+    400146: black m66
+    400148: black m67
+    400150: black m68
+    400152: black m69
+    400154: black m70
+    400156: black m71
+    400158: black m72
+    400160: black m73
+    400162: black m74
+    400164: black m75
+    400166: black m76
+    400168: black m77
+    400170: black m78
+    400172: black m79
+    400174: black m80
+    400176: black m81
+    400178: black m82
+    400180: black m83
+    400182: black m84
+    400184: black m85
+    400186: black m86
+    400188: black m87
+    400190: black m88
+    400192: black m89
+    400194: black m90
+    400196: black m91
+    400198: black m92
+    400200: black01
+    400202: body
+    400204: body01
+    400206: body02
+    400208: body03
+    400210: body04
+    400212: body05
+    400214: body06
+    400216: body07
+    400218: body08
+    400220: body09
+    400222: body10
+    400224: body11
+    400226: body12
+    400228: body13
+    400230: body14
+    400232: body15
+    400234: body16
+    400236: body17
+    400238: body18
+    400240: body19
+    400242: body20
+    400244: body21
+    400246: body22
+    400248: body23
+    400250: body24
+    400252: body25
+    400254: body26
+    400256: body27
+    400258: body28
+    400260: body29
+    400262: body30
+    400264: chrome01
+    400266: chrome02
+    400268: chromem01
+    400270: chromem02
+    400272: chromem04
+    400274: chromem05
+    400276: glass02
+    400278: glass03
+    400280: glass04
+    400282: glass05
+    400284: glass06
+    400286: glass07
+    400288: glass08
+    400290: glass09
+    400292: glass10
+    400294: glass11
+    400296: glass12
+    400298: gold01
+    400300: gold02
+    400302: gold03
+    400304: gold04
+    400306: gum01
+    400308: gum02
+    400310: gum03
+    400312: gum04
+    400314: gum05
+    400316: gum06
+    400318: gum07
+    400320: gum08
+    400322: gum09
+    400324: gum10
+    400326: gum11
+    400328: gum12
+    400330: gum13
+    400332: gum14
+    400334: gum15
+    400336: gum16
+    400338: gum17
+    400340: gum18
+    400342: gum19
+    400344: gum20
+    400346: gum21
+    400348: gum22
+    400350: gum23
+    400352: gum24
+    400354: logo01
+    400356: orange01
+    400358: orange02
+    400360: plate01
+    400362: r glass01
+    400364: red01
+    400366: red02
+    400368: red03
+    400370: red04
+    400372: red05
+    400374: red06
+    400376: silver01
+    400378: silver02
+    400380: silver03
+    400382: silver04
+    400384: silver05
+    400386: silver06
+    400388: silver07
+    400390: silver08
+    400392: silver09
+    400394: silver10
+    400396: silver11
+    400398: silver12
+    400400: silver13
+    400402: silver14
+    400404: silver15
+    400406: silver16
+    400408: silver17
+    400410: silver19
+    400412: silver20
+    400414: silver21
+    400416: silver23
+    400418: silver24
+    400420: silver25
+    400422: silver26
+    400424: silver27
+    400426: silver28
+    400428: silver29
+    400430: silver30
+    400432: silver31
+    400434: silver32
+    400436: silver33
+    400438: silver34
+    400440: silver35
+    400442: silver36
+    400444: silver37
+    400446: silver38
+    400448: silver39
+    400450: silver40
+    400452: silver41
+    400454: silver42
+    400456: //RootNode
+    2100000: body
+    2100002: black m
+    2100004: glass
+    2100006: silver
+    2100008: red
+    2100010: gum
+    2100012: orange
+    2100014: logo
+    2100016: plate
+    2100018: chrome
+    2100020: r glass
+    2100022: b paint
+    2100024: gold
+    2300000: b paint01
+    2300002: b paint02
+    2300004: b paint03
+    2300006: b paint04
+    2300008: b paint05
+    2300010: b paint07
+    2300012: b paint08
+    2300014: b paint09
+    2300016: black m01
+    2300018: black m02
+    2300020: black m03
+    2300022: black m04
+    2300024: black m05
+    2300026: black m06
+    2300028: black m07
+    2300030: black m08
+    2300032: black m09
+    2300034: black m10
+    2300036: black m11
+    2300038: black m12
+    2300040: black m13
+    2300042: black m14
+    2300044: black m15
+    2300046: black m16
+    2300048: black m17
+    2300050: black m18
+    2300052: black m19
+    2300054: black m20
+    2300056: black m21
+    2300058: black m22
+    2300060: black m23
+    2300062: black m24
+    2300064: black m25
+    2300066: black m26
+    2300068: black m27
+    2300070: black m28
+    2300072: black m29
+    2300074: black m30
+    2300076: black m31
+    2300078: black m32
+    2300080: black m33
+    2300082: black m34
+    2300084: black m35
+    2300086: black m36
+    2300088: black m37
+    2300090: black m38
+    2300092: black m39
+    2300094: black m40
+    2300096: black m41
+    2300098: black m42
+    2300100: black m43
+    2300102: black m44
+    2300104: black m45
+    2300106: black m46
+    2300108: black m47
+    2300110: black m48
+    2300112: black m49
+    2300114: black m50
+    2300116: black m51
+    2300118: black m52
+    2300120: black m53
+    2300122: black m54
+    2300124: black m55
+    2300126: black m56
+    2300128: black m57
+    2300130: black m58
+    2300132: black m59
+    2300134: black m60
+    2300136: black m61
+    2300138: black m62
+    2300140: black m63
+    2300142: black m64
+    2300144: black m65
+    2300146: black m66
+    2300148: black m67
+    2300150: black m68
+    2300152: black m69
+    2300154: black m70
+    2300156: black m71
+    2300158: black m72
+    2300160: black m73
+    2300162: black m74
+    2300164: black m75
+    2300166: black m76
+    2300168: black m77
+    2300170: black m78
+    2300172: black m79
+    2300174: black m80
+    2300176: black m81
+    2300178: black m82
+    2300180: black m83
+    2300182: black m84
+    2300184: black m85
+    2300186: black m86
+    2300188: black m87
+    2300190: black m88
+    2300192: black m89
+    2300194: black m90
+    2300196: black m91
+    2300198: black m92
+    2300200: black01
+    2300202: body
+    2300204: body01
+    2300206: body02
+    2300208: body03
+    2300210: body04
+    2300212: body05
+    2300214: body06
+    2300216: body07
+    2300218: body08
+    2300220: body09
+    2300222: body10
+    2300224: body11
+    2300226: body12
+    2300228: body13
+    2300230: body14
+    2300232: body15
+    2300234: body16
+    2300236: body17
+    2300238: body18
+    2300240: body19
+    2300242: body20
+    2300244: body21
+    2300246: body22
+    2300248: body23
+    2300250: body24
+    2300252: body25
+    2300254: body26
+    2300256: body27
+    2300258: body28
+    2300260: body29
+    2300262: body30
+    2300264: chrome01
+    2300266: chrome02
+    2300268: chromem01
+    2300270: chromem02
+    2300272: chromem04
+    2300274: chromem05
+    2300276: glass02
+    2300278: glass03
+    2300280: glass04
+    2300282: glass05
+    2300284: glass06
+    2300286: glass07
+    2300288: glass08
+    2300290: glass09
+    2300292: glass10
+    2300294: glass11
+    2300296: glass12
+    2300298: gold01
+    2300300: gold02
+    2300302: gold03
+    2300304: gold04
+    2300306: gum01
+    2300308: gum02
+    2300310: gum03
+    2300312: gum04
+    2300314: gum05
+    2300316: gum06
+    2300318: gum07
+    2300320: gum08
+    2300322: gum09
+    2300324: gum10
+    2300326: gum11
+    2300328: gum12
+    2300330: gum13
+    2300332: gum15
+    2300334: gum16
+    2300336: gum17
+    2300338: gum19
+    2300340: gum20
+    2300342: gum22
+    2300344: gum23
+    2300346: logo01
+    2300348: orange01
+    2300350: orange02
+    2300352: plate01
+    2300354: r glass01
+    2300356: red01
+    2300358: red02
+    2300360: red03
+    2300362: red04
+    2300364: red05
+    2300366: red06
+    2300368: silver01
+    2300370: silver02
+    2300372: silver03
+    2300374: silver04
+    2300376: silver05
+    2300378: silver06
+    2300380: silver07
+    2300382: silver08
+    2300384: silver09
+    2300386: silver10
+    2300388: silver11
+    2300390: silver12
+    2300392: silver13
+    2300394: silver14
+    2300396: silver15
+    2300398: silver16
+    2300400: silver17
+    2300402: silver19
+    2300404: silver20
+    2300406: silver21
+    2300408: silver23
+    2300410: silver24
+    2300412: silver25
+    2300414: silver26
+    2300416: silver27
+    2300418: silver28
+    2300420: silver29
+    2300422: silver30
+    2300424: silver31
+    2300426: silver32
+    2300428: silver33
+    2300430: silver34
+    2300432: silver35
+    2300434: silver36
+    2300436: silver37
+    2300438: silver38
+    2300440: silver39
+    2300442: silver40
+    2300444: silver41
+    2300446: silver42
+    3300000: b paint01
+    3300002: b paint02
+    3300004: b paint03
+    3300006: b paint04
+    3300008: b paint05
+    3300010: b paint07
+    3300012: b paint08
+    3300014: b paint09
+    3300016: black m01
+    3300018: black m02
+    3300020: black m03
+    3300022: black m04
+    3300024: black m05
+    3300026: black m06
+    3300028: black m07
+    3300030: black m08
+    3300032: black m09
+    3300034: black m10
+    3300036: black m11
+    3300038: black m12
+    3300040: black m13
+    3300042: black m14
+    3300044: black m15
+    3300046: black m16
+    3300048: black m17
+    3300050: black m18
+    3300052: black m19
+    3300054: black m20
+    3300056: black m21
+    3300058: black m22
+    3300060: black m23
+    3300062: black m24
+    3300064: black m25
+    3300066: black m26
+    3300068: black m27
+    3300070: black m28
+    3300072: black m29
+    3300074: black m30
+    3300076: black m31
+    3300078: black m32
+    3300080: black m33
+    3300082: black m34
+    3300084: black m35
+    3300086: black m36
+    3300088: black m37
+    3300090: black m38
+    3300092: black m39
+    3300094: black m40
+    3300096: black m41
+    3300098: black m42
+    3300100: black m43
+    3300102: black m44
+    3300104: black m45
+    3300106: black m46
+    3300108: black m47
+    3300110: black m48
+    3300112: black m49
+    3300114: black m50
+    3300116: black m51
+    3300118: black m52
+    3300120: black m53
+    3300122: black m54
+    3300124: black m55
+    3300126: black m56
+    3300128: black m57
+    3300130: black m58
+    3300132: black m59
+    3300134: black m60
+    3300136: black m61
+    3300138: black m62
+    3300140: black m63
+    3300142: black m64
+    3300144: black m65
+    3300146: black m66
+    3300148: black m67
+    3300150: black m68
+    3300152: black m69
+    3300154: black m70
+    3300156: black m71
+    3300158: black m72
+    3300160: black m73
+    3300162: black m74
+    3300164: black m75
+    3300166: black m76
+    3300168: black m77
+    3300170: black m78
+    3300172: black m79
+    3300174: black m80
+    3300176: black m81
+    3300178: black m82
+    3300180: black m83
+    3300182: black m84
+    3300184: black m85
+    3300186: black m86
+    3300188: black m87
+    3300190: black m88
+    3300192: black m89
+    3300194: black m90
+    3300196: black m91
+    3300198: black m92
+    3300200: black01
+    3300202: body
+    3300204: body01
+    3300206: body02
+    3300208: body03
+    3300210: body04
+    3300212: body05
+    3300214: body06
+    3300216: body07
+    3300218: body08
+    3300220: body09
+    3300222: body10
+    3300224: body11
+    3300226: body12
+    3300228: body13
+    3300230: body14
+    3300232: body15
+    3300234: body16
+    3300236: body17
+    3300238: body18
+    3300240: body19
+    3300242: body20
+    3300244: body21
+    3300246: body22
+    3300248: body23
+    3300250: body24
+    3300252: body25
+    3300254: body26
+    3300256: body27
+    3300258: body28
+    3300260: body29
+    3300262: body30
+    3300264: chrome01
+    3300266: chrome02
+    3300268: chromem01
+    3300270: chromem02
+    3300272: chromem04
+    3300274: chromem05
+    3300276: glass02
+    3300278: glass03
+    3300280: glass04
+    3300282: glass05
+    3300284: glass06
+    3300286: glass07
+    3300288: glass08
+    3300290: glass09
+    3300292: glass10
+    3300294: glass11
+    3300296: glass12
+    3300298: gold01
+    3300300: gold02
+    3300302: gold03
+    3300304: gold04
+    3300306: gum01
+    3300308: gum02
+    3300310: gum03
+    3300312: gum04
+    3300314: gum05
+    3300316: gum06
+    3300318: gum07
+    3300320: gum08
+    3300322: gum09
+    3300324: gum10
+    3300326: gum11
+    3300328: gum12
+    3300330: gum13
+    3300332: gum15
+    3300334: gum16
+    3300336: gum17
+    3300338: gum19
+    3300340: gum20
+    3300342: gum22
+    3300344: gum23
+    3300346: logo01
+    3300348: orange01
+    3300350: orange02
+    3300352: plate01
+    3300354: r glass01
+    3300356: red01
+    3300358: red02
+    3300360: red03
+    3300362: red04
+    3300364: red05
+    3300366: red06
+    3300368: silver01
+    3300370: silver02
+    3300372: silver03
+    3300374: silver04
+    3300376: silver05
+    3300378: silver06
+    3300380: silver07
+    3300382: silver08
+    3300384: silver09
+    3300386: silver10
+    3300388: silver11
+    3300390: silver12
+    3300392: silver13
+    3300394: silver14
+    3300396: silver15
+    3300398: silver16
+    3300400: silver17
+    3300402: silver19
+    3300404: silver20
+    3300406: silver21
+    3300408: silver23
+    3300410: silver24
+    3300412: silver25
+    3300414: silver26
+    3300416: silver27
+    3300418: silver28
+    3300420: silver29
+    3300422: silver30
+    3300424: silver31
+    3300426: silver32
+    3300428: silver33
+    3300430: silver34
+    3300432: silver35
+    3300434: silver36
+    3300436: silver37
+    3300438: silver38
+    3300440: silver39
+    3300442: silver40
+    3300444: silver41
+    3300446: silver42
+    4300000: body02
+    4300002: black m01
+    4300004: black m02
+    4300006: glass02
+    4300008: black m03
+    4300010: black m04
+    4300012: silver01
+    4300014: silver02
+    4300016: body03
+    4300018: silver03
+    4300020: silver04
+    4300022: silver05
+    4300024: black m05
+    4300026: black m06
+    4300028: glass03
+    4300030: black m07
+    4300032: red02
+    4300034: black m08
+    4300036: silver06
+    4300038: black m09
+    4300040: glass04
+    4300042: black m10
+    4300044: black m11
+    4300046: body04
+    4300048: black m12
+    4300050: gum01
+    4300052: body05
+    4300054: silver07
+    4300056: body06
+    4300058: silver08
+    4300060: black m13
+    4300062: silver09
+    4300064: black m14
+    4300066: black m15
+    4300068: black m16
+    4300070: orange01
+    4300072: glass05
+    4300074: silver10
+    4300076: silver11
+    4300078: red03
+    4300080: red04
+    4300082: red05
+    4300084: body07
+    4300086: black m17
+    4300088: black m18
+    4300090: black m19
+    4300092: black m20
+    4300094: black m21
+    4300096: black m22
+    4300098: black m23
+    4300100: black m24
+    4300102: black m25
+    4300104: black m26
+    4300106: black m27
+    4300108: black m28
+    4300110: black m29
+    4300112: black m30
+    4300114: black m31
+    4300116: black m32
+    4300118: black m33
+    4300120: black m34
+    4300122: black m35
+    4300124: black m36
+    4300126: black m37
+    4300128: black m38
+    4300130: black m39
+    4300132: black m40
+    4300134: black m41
+    4300136: black m42
+    4300138: black m43
+    4300140: black m44
+    4300142: black m45
+    4300144: black m46
+    4300146: black m47
+    4300148: silver12
+    4300150: black m48
+    4300152: black m49
+    4300154: black m50
+    4300156: black m51
+    4300158: black m52
+    4300160: black m53
+    4300162: black m54
+    4300164: silver13
+    4300166: body08
+    4300168: silver14
+    4300170: silver15
+    4300172: logo01
+    4300174: black m55
+    4300176: black m56
+    4300178: silver23
+    4300180: body09
+    4300182: body10
+    4300184: silver24
+    4300186: silver25
+    4300188: body11
+    4300190: body12
+    4300192: body13
+    4300194: body14
+    4300196: body15
+    4300198: body16
+    4300200: body17
+    4300202: black m57
+    4300204: black m58
+    4300206: black m59
+    4300208: black m60
+    4300210: black m61
+    4300212: silver26
+    4300214: silver27
+    4300216: body18
+    4300218: silver28
+    4300220: silver29
+    4300222: silver30
+    4300224: black m62
+    4300226: black m63
+    4300228: body19
+    4300230: black m64
+    4300232: black m65
+    4300234: silver31
+    4300236: black m66
+    4300238: glass06
+    4300240: black m67
+    4300242: black m68
+    4300244: gum02
+    4300246: body20
+    4300248: silver32
+    4300250: body21
+    4300252: silver33
+    4300254: black m69
+    4300256: silver34
+    4300258: black m70
+    4300260: black m71
+    4300262: black m72
+    4300264: orange02
+    4300266: glass07
+    4300268: silver35
+    4300270: body22
+    4300272: body23
+    4300274: body24
+    4300276: black m73
+    4300278: black m74
+    4300280: black m75
+    4300282: black m76
+    4300284: black m77
+    4300286: black m78
+    4300288: black m79
+    4300290: black m80
+    4300292: black m81
+    4300294: black m82
+    4300296: black m83
+    4300298: black m84
+    4300300: black m85
+    4300302: black m86
+    4300304: black m87
+    4300306: black m88
+    4300308: black m89
+    4300310: body25
+    4300312: plate01
+    4300314: silver36
+    4300316: silver37
+    4300318: body26
+    4300320: body27
+    4300322: body28
+    4300324: body29
+    4300326: glass08
+    4300328: glass09
+    4300330: glass10
+    4300332: silver38
+    4300334: black m90
+    4300336: silver39
+    4300338: black m91
+    4300340: black m92
+    4300342: chrome01
+    4300344: silver40
+    4300346: gum03
+    4300348: gum04
+    4300350: gum05
+    4300352: glass11
+    4300354: gum11
+    4300356: chrome02
+    4300358: gum12
+    4300360: gum06
+    4300362: body30
+    4300364: silver41
+    4300366: r glass01
+    4300368: black01
+    4300370: silver16
+    4300372: gum07
+    4300374: silver17
+    4300376: gum08
+    4300378: glass12
+    4300380: red06
+    4300382: red01
+    4300384: gum09
+    4300386: gum13
+    4300388: gum10
+    4300390: silver19
+    4300392: b paint07
+    4300394: chromem04
+    4300396: gum15
+    4300398: gold01
+    4300400: b paint08
+    4300402: gum16
+    4300404: gum17
+    4300406: silver42
+    4300408: b paint09
+    4300410: chromem05
+    4300412: gold02
+    4300414: b paint01
+    4300416: gum19
+    4300418: gum20
+    4300420: silver20
+    4300422: b paint02
+    4300424: chromem01
+    4300426: gold03
+    4300428: b paint03
+    4300430: gum22
+    4300432: gum23
+    4300434: silver21
+    4300436: b paint04
+    4300438: chromem02
+    4300440: gold04
+    4300442: b paint05
+    4300444: body
+    4300446: body01
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b paint
+    second: {fileID: 2100000, guid: 09b7d72d1250543669f794e3a56beac2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black m
+    second: {fileID: 2100000, guid: 15b0ff64cee1043ab904f49e27d7ff54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: d23024c2019e44e18944ec7114535fa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrome
+    second: {fileID: 2100000, guid: e9d6b476fbe634be9bd7a7cb19551f20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 79c16486eeb1f4c508e5b744f60c3f0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gold
+    second: {fileID: 2100000, guid: 4271fe7b9e1cc43eebf405abe95e29d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gum
+    second: {fileID: 2100000, guid: c0486b6ac81974aaba522caba586e3cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: logo
+    second: {fileID: 2100000, guid: 8eb86ee17bf3d4901bba3b52998bed5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orange
+    second: {fileID: 2100000, guid: b95b327c02a134a75abba4b749c3cd2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plate
+    second: {fileID: 2100000, guid: c24cf1daf8e9242a9ad2c2ec9da438d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: r glass
+    second: {fileID: 2100000, guid: 09996ba9371e84f09a93a91edfff232d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red
+    second: {fileID: 2100000, guid: cd023bdbbe0c84154989c4a4c2eae467, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: silver
+    second: {fileID: 2100000, guid: 947ac8ee63cf94d30ac27c9ba39bd86e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

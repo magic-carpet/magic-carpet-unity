@@ -13174,6 +13174,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4109344665508764}
+  - component: {fileID: 114095851852424570}
   m_Layer: 0
   m_Name: PanelPositionsGroup
   m_TagString: Untagged
@@ -107948,3 +107949,23 @@ Transform:
   m_Father: {fileID: 4109344665508764}
   m_RootOrder: 1981
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114095851852424570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1236054139040880}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4e64e40c10321c4f950dd004acc9a6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lowLODPanelPrefab: {fileID: 1191938699655320, guid: aed700f7098b246789d0a41ac1a3c29f,
+    type: 2}
+  highLODPanelPrefab: {fileID: 1038417658140716, guid: 5ea59ef37568945dcbd15146f9d3b428,
+    type: 2}
+  panelPosn: []
+  _numOfPanels: 0
+  _panelsGroup: {fileID: 0}
+  _panelColors: []
+  colourfulTiles: 0

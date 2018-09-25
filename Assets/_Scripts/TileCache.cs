@@ -14,6 +14,7 @@ public class TileCache : MonoBehaviour
 
     [SerializeField] private Color32[] _panelColors;
     public bool colourfulTiles = false;
+    public bool lowDetailTiles = false;
 
     // Use this for initialization
     void Start()
@@ -42,12 +43,26 @@ public class TileCache : MonoBehaviour
     {
         for (int i = 0; i < _numOfPanels; i++)
         {
-           var clone = Instantiate(lowLODPanelPrefab, panelPosn[i].position, panelPosn[i].rotation, _panelsGroup.transform);
-            clone.name = "PanelPosition(" + i + ")";
-            if (colourfulTiles){
-                Renderer rend = clone.GetComponent<Renderer>();
-                rend.material.color = _panelColors[Random.Range(0, _panelColors.Length)];
+            if (lowDetailTiles)
+            {
+                var clone = Instantiate(lowLODPanelPrefab, panelPosn[i].position, panelPosn[i].rotation, _panelsGroup.transform);
+                clone.name = "PanelPosition(" + i + ")";
+                if (colourfulTiles)
+                {
+                    Renderer rend = clone.GetComponent<Renderer>();
+                    rend.material.color = _panelColors[Random.Range(0, _panelColors.Length)];
+                }
+            } else {
+                var clone = Instantiate(highLODPanelPrefab, panelPosn[i].position, panelPosn[i].rotation, _panelsGroup.transform);
+                clone.name = "PanelPosition(" + i + ")";
+                if (colourfulTiles)
+                {
+                    Renderer rend = clone.GetComponent<Renderer>();
+                    rend.material.color = _panelColors[Random.Range(0, _panelColors.Length)];
+                }
             }
+
+
         }
 
     }

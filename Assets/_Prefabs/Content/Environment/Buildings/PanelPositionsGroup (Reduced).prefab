@@ -58372,10 +58372,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lowLODPanelPrefab: {fileID: 1191938699655320, guid: aed700f7098b246789d0a41ac1a3c29f,
     type: 2}
-  highLODPanelPrefab: {fileID: 1038417658140716, guid: 5ea59ef37568945dcbd15146f9d3b428,
+  highLODPanelPrefab: {fileID: 1405212506793216, guid: 4d1a9eeb5a3bf4a27a649b0e6cf2ffea,
     type: 2}
   panelPosn: []
   _numOfPanels: 0
   _panelsGroup: {fileID: 0}
   _panelColors: []
-  colourfulTiles: 1
+  colourfulTiles: 0
+  lowDetailTiles: 0

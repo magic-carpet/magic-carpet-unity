@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="mc-fin-test"/>
+</Tracking>
+
+<Assembly name="mc-fin-tests_assembly">
+<Part name="mc-fin-test" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="21.6904 -75.6774 1391.27" rotation="AD: 0.9989460832307108 0.15030282824733454 -0.35170487984481125 223.514">
+
+</EntryPoint>
+
+</Assembly>
+</QCARConfig>

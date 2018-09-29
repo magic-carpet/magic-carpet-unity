@@ -5,10 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/_Scenes/Prototyping/AR Model on Plane.unity
-    guid: 645957a401425409798f72763e2de0e7
   - enabled: 1
-    path: Assets/_Scenes/Prototyping/MobileARProfiling.unity
-    guid: 5ac93e5ed2edd49f3b0c4fa4375bb040
+    path: Assets/_Scenes/To Do/CampusSceneHDRP.unity
+    guid: 34d13cbae676d4cde9cb099c166cd7d5
   m_configObjects: {}

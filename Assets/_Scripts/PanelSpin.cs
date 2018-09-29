@@ -9,7 +9,7 @@ public class PanelSpin : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         _rb = GetComponent<Rigidbody>();
-        //_rb.AddTorque(Vector3.forward * _rotSpeed);
+       //_rb.AddTorque(Vector3.forward * _rotSpeed);
 
     }
 	
@@ -19,7 +19,29 @@ public class PanelSpin : MonoBehaviour {
     }
 
     public void SpinPanel(){
-        _rb.AddTorque(Vector3.forward * _rotSpeed);
+        float rand = Random.Range(_rotSpeed - 20f, _rotSpeed + 20f);
+        _rb.AddTorque(Vector3.forward * rand);
+
+    }
+
+    public void WindGentleSpinPanel()
+    {
+        float rand = Random.Range(_rotSpeed - 101f, _rotSpeed - 99f);
+        _rb.AddTorque(Vector3.forward * rand);
+
+    }
+
+    public void WindStrongSpinPanel()
+    {
+        float rand = Random.Range(_rotSpeed - 99f, _rotSpeed - 98f);
+        _rb.AddTorque(Vector3.forward * rand);
+
+    }
+
+    public void TouchSpinPanel()
+    {
+        float rand = Random.Range(_rotSpeed - 20f, _rotSpeed + 20f);
+        _rb.AddTorque(Vector3.forward * rand);
 
     }
 }

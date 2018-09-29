@@ -1,0 +1,18 @@
+newmtl female_avartar2:eyelash_r_up_Shape1SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.10 0.10 0.10
+Ns 4.31
+newmtl polySurface10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.39 0.39 0.39
+Tf 1.00 1.00 1.00
+map_Kd d025.jpg
+bump NM.jpg -bm 1
+Ni 1.00
+Ks 0.03 0.03 0.03
+Ns 4.31

@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -3205,6 +3205,11 @@ Prefab:
     - target: {fileID: 4341290431856316, guid: eabd74deb10f14d1f82a94eed009dcdc, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114165638712463600, guid: eabd74deb10f14d1f82a94eed009dcdc,
+        type: 2}
+      propertyPath: _strongWind
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eabd74deb10f14d1f82a94eed009dcdc, type: 2}
@@ -9439,7 +9444,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 166.15242
+      value: 156.32968
       objectReference: {fileID: 0}
     - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_Enabled
@@ -9469,7 +9474,7 @@ Prefab:
         type: 0}
     - target: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -18.600025
+      value: -29.699997
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalRotation.x
@@ -32287,6 +32292,12 @@ Prefab:
       propertyPath: colourfulTiles
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114619387103781108, guid: 31feeb148cca041fb8860ef7d83ad651,
+        type: 2}
+      propertyPath: highLODPanelPrefab
+      value: 
+      objectReference: {fileID: 1405212506793216, guid: 4d1a9eeb5a3bf4a27a649b0e6cf2ffea,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31feeb148cca041fb8860ef7d83ad651, type: 2}
   m_IsPrefabAsset: 0

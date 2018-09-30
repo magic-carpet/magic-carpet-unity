@@ -23,10 +23,10 @@ public class TileCache : MonoBehaviour
         _numOfPanels = _panelParent.transform.childCount;
         panelPosn = new Transform[_numOfPanels];
         _panelColors = new Color32[4];
-        _panelColors[0] = new Color32(178, 209, 240, 100);
-        _panelColors[1] = new Color32(211, 102, 133, 100);
-        _panelColors[2] = new Color32(238, 219, 80, 100);
-        _panelColors[3] = new Color32(2, 168, 148, 100);
+        _panelColors[0] = new Color32(178, 209, 240, 175);
+        _panelColors[1] = new Color32(211, 102, 133, 175);
+        _panelColors[2] = new Color32(238, 219, 80, 175);
+        _panelColors[3] = new Color32(2, 168, 148, 175);
         CachePanelPositions();
        InstancePanels();
     }

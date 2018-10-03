@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/To Do/CampusSceneHDRP.unity
-    guid: 34d13cbae676d4cde9cb099c166cd7d5
+    path: Assets/_Scenes/CampusSceneAR.unity
+    guid: 95d583df58a66461f9c60e201d3ff4f5
   m_configObjects: {}
